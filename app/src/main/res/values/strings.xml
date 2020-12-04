@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ProvaSub</string>
+
+    <string name="app_Produto">Produto</string>
+    <string name="app_Quantidade">Quantidade</string>
+    <string name="app_Data">Data de Entrada</string>
 </resources>
