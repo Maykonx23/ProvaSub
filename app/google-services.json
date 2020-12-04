@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "195062919976",
+    "project_id": "provasub-af2ac",
+    "storage_bucket": "provasub-af2ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195062919976:android:51f556116193c106d9161d",
+        "android_client_info": {
+          "package_name": "com.example.provasub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195062919976-po0nhevl7tkaq3nuk5teto11r4th2eat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGmsy9tm5M-Jq76IQoBLh4CX5u3E42Cv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195062919976-po0nhevl7tkaq3nuk5teto11r4th2eat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

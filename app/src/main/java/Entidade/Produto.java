@@ -4,8 +4,17 @@ import java.util.Date;
 
 public class Produto {
     private String produto;
-    private Date data;
-    private Integer quantidade;
+    private String data;
+    private String quantidade;
+    private Integer Id;
+
+    public Integer getId() {
+        return Id;
+    }
+
+    public void setId(Integer id) {
+        Id = id;
+    }
 
     public String getProduto() {
         return produto;
@@ -15,19 +24,28 @@ public class Produto {
         this.produto = produto;
     }
 
-    public Date getData() {
+    public String getData() {
         return data;
     }
 
-    public void setData(Date data) {
+    public void setData(String data) {
         this.data = data;
     }
 
-    public Integer getQuantidade() {
+    public String getQuantidade() {
         return quantidade;
     }
 
-    public void setQuantidade(Integer quantidade) {
+    public void setQuantidade(String quantidade) {
         this.quantidade = quantidade;
+    }
+
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "produto='" + produto + '\'' +
+                ", data=" + data +
+                ", quantidade=" + quantidade +
+                '}';
     }
 }
